@@ -1,0 +1,98 @@
+body {
+    overflow: hidden;
+
+    min-width: 100vw;
+    min-height: 100vh;
+
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+    position: relative;
+
+    background: url(./img/bg.png);
+    background-size: cover;
+
+    overflow: auto;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    margin-top: 10px;
+    ;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.container-form {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+#container-center {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    
+    font-size: 2em; 
+    text-align: center;
+}
+
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+
+
+.value-input {
+    display: block;
+    margin: 0 auto 10px;
+    width: 100%;
+    font-size: 0.7em;
+}
+
+.container-buttons button {
+
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+    background-color: #ff7037;
+
+
+}
+
+@media screen and (max-width: 1050px) {
+    .container-form {
+        flex-direction: column;
+    }
+}
